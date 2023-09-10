@@ -18,8 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
-
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -35,7 +33,6 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-admin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
